@@ -1,258 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dheenadhayalan S | Full Stack Developer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
-  <link  rel="icon" type="image/png" href="img\img-2 clone.png"/>
-  <title>Dheenadhayalan portfolio</title>
+  <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
-
 <body>
+  <!-- Terminal Loader -->
+  <div class="terminal-loader">
+    <div class="terminal-header">
+      <div class="terminal-title">System Boot</div>
+      <div class="terminal-controls">
+        <div class="control close"></div>
+        <div class="control minimize"></div>
+        <div class="control maximize"></div>
+      </div>
+    </div>
+    <div class="terminal-content">
+      <div class="typing">Initializing portfolio system...</div>
+      <div class="typing">Loading developer modules...</div>
+      <div class="typing">Compiling personal data...</div>
+      <div class="typing">Establishing secure connection...</div>
+      <div class="typing">System ready!</div>
+    </div>
+  </div>
 
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>D</span>HEENA <span>D</span>HAYALAN S</h1>
-          </a>
+  <!-- Matrix Background -->
+  <canvas id="matrix"></canvas>
+
+  <!-- Main Content -->
+  <div class="main-content">
+    <!-- Header -->
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <a href="#hero"><span class="code-symbol">&lt;/&gt;</span> Dheenadhayalan</a>
         </div>
-        <div class="nav-list">
+        <nav class="nav-bar">
+          <ul class="nav-list">
+            <li><a href="#services" class="nav-link"><span class="nav-number">01.</span> Services</a></li>
+            <li><a href="#projects" class="nav-link"><span class="nav-number">02.</span> Projects</a></li>
+            <li><a href="#about" class="nav-link"><span class="nav-number">03.</span> About</a></li>
+            <li><a href="#contact" class="nav-link"><span class="nav-number">04.</span> Contact</a></li>
+            <li><a href="img/Resume.pdf" class="resume-btn">Resume</a></li>
+          </ul>
           <div class="hamburger">
             <div class="bar"></div>
           </div>
-          <ul>
-              <li><a href="#services">SERVICES</a></li>
-              <li><a href="#projects">PROJECTS</a></li>
-              <li><a href="#about">ABOUT ME</a> </li>
-              <li></li>
-          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+      <div class="container">
+        <div class="hero-content">
+          <p class="greeting">Hi, my name is</p>
+          <h1 class="hero-title">Dheenadhayalan S.</h1>
+          <h2 class="hero-subtitle">I build things for the web.</h2>
+          <p class="hero-desc">
+            I'm a full-stack developer specializing in building exceptional digital experiences. 
+            Currently focused on creating responsive web applications with modern technologies.
+          </p>
+          <div class="cta-container">
+            <a href="#projects" class="cta-btn pulse">View My Work</a>
+            <div class="social-links">
+              <a href="https://github.com/Dheenadhayalan211203" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/dheenadhayalan-s-07b50222a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.instagram.com/dheena_shobha" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="glowing-border">
+            <img src="img/profile.jpeg" alt="Dheenadhayalan S">
+          </div>
+          <div class="tech-icons">
+            <i class="fab fa-html5" style="color: #e34f26;"></i>
+            <i class="fab fa-css3-alt" style="color: #2965f1;"></i>
+            <i class="fab fa-js" style="color: #f7df1e;"></i>
+            <i class="fab fa-react" style="color: #61dafb;"></i>
+            <i class="fab fa-node-js" style="color: #68a063;"></i>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-
-
-
-  
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h1>Hello, <span></span></h1>
-        <h1>I am <span></span></h1>
-        <h1 style="font-weight:bolder; font-style: italic; ">Dheenadhayalan S <span></span></h1>
-         
-         
-      </div>
-    </div>
-    <div class="developer"> <h3> <span>W</span>eb Developer</h3> </div>
-     
-     
-  </section>
-
-   
-   
- 
-  <section id="services">
-    <div class="services container">
-      <div class="service-top">
-        <h1 class="section-title">Se<span>rv</span>ices</h1>
-         
-        
-        <section class="servwhol">
-          <div class="servcont">
-             
-              <h2>Building E-Commerce Store  </h2>
-              <h3>MERN Stack </h3>
-               
-              <img src="img/mern.jpeg" alt="MERN STACK DEVELOPMENT ">
-              <p>Freelancing</p>
-             
-          </div>
-
-          <div class="servcont">
-             
-              <h2>Landing pages   </h2>
-              <h3>HTML CSS JS / MERN </h3>
-               
-              <img src="img/mern.jpeg" alt="MERN STACK DEVELOPMENT ">
-              <h1>OR</h1>
-              <img src="img/hcj.png" alt="MERN STACK DEVELOPMENT ">
-              <p>Freelancing</p>
-             
-          </div>
-
-          
-        </section>
-          
-          
-        
-     
-    </div>
-  </section>
-  <!-- End Service Section -->
-
-  <!-- Projects Section -->
-   <section class="prjct">
-    <section id="projects">
-      <div class="projects container">
-        <div class="projects-header">
-          <h1 class="section-title">Recent <span>Projects</span></h1>
-        </div >
-        <div class="all-projects">
-           
-          <div class="project-item">
-            <div class="project-info">
-              <h1 style="font-weight: bold; ">E-Comerce Web Application</h1>
-              <h2 style="padding: 20px;"> Created a e-commerce website using MERN Stack ,
-                Ennable dynamic product listings and categorization .  </h2>
-              <p style="background-color: rgba(0, 0, 0, 0.53); padding: 20px; border-radius: 20px;">  Used <span>React JS , Node JS , Express JS , Mongodb </span></p>
-              <h2 style="background-color: rgba(36, 210, 21, 0.53); padding: 20px; border-radius: 20px;"><Span style="color: rgb(255, 0, 0); font-weight: bold;">Role : </Span> Full Stack Developer </h2>
-            </div>
-            <div class="project-img">
-              <img src="./img/pr11.png" alt="img">
-               
-            </div>
-          </div>
-  
-          <div class="project-item">
-            <div class="project-info">
-              <h1 style="font-weight: bold; ">SMART TRANSIT 
-              </h1>
-              <h2 style="padding: 20px;"> Enhancing Public Bus Transportation Efficiency: An Innovative
-                Approach to Optimal Route Planning and Capacity Utilization
-                  </h2>
-              <p style="background-color: rgba(0, 0, 0, 0.53); padding: 20px; border-radius: 20px;">  Used <span>React JS , Node JS , Express JS , Mongodb , Machine Learning </span></p>
-              <h2 style="background-color: rgba(36, 210, 21, 0.53); padding: 20px; border-radius: 20px;"><Span style="color: rgb(255, 0, 0); font-weight: bold;">Role : </Span> Full Stack Developer </h2>
-            </div>
-            <div class="project-img">
-              <img src="./img/prjct21.jpg" alt="img">
-            </div>
-          </div>
-  
-          <div class="project-item">
-            <div class="project-info">
-              <h1 style="font-weight: bold; ">CHATOGRAM 
-              </h1>
-              <h2 style="padding: 20px;">  End to End Encrypted Chatting Application like Whatsapp .  
-                  </h2>
-              <p style="background-color: rgba(0, 0, 0, 0.53); padding: 20px; border-radius: 20px;">  Used <span>React JS , Node JS , Express JS , Mongodb   </span></p>
-              <h2 style="background-color: rgba(36, 210, 21, 0.53); padding: 20px; border-radius: 20px;"><Span style="color: rgb(255, 0, 0); font-weight: bold;">Role : </Span> Full Stack Developer </h2>
-            </div>
-            <div class="project-img">
-              <img src="./img/p31.png" alt="img">
-            </div>
-          </div>
-          
-          
+      <div class="scroll-down">
+        <span>Scroll down</span>
+        <div class="mouse">
+          <div class="wheel"></div>
         </div>
       </div>
     </section>
-   </section>
-  <!-- End Projects Section -->
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="./img/img-2 clone.png" alt="img">
+    <!-- Services Section -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2><span class="section-number">01.</span> What I Do</h2>
+          <div class="line"></div>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Web Development</h3>
+            <p>Building responsive, modern websites and web applications using the latest technologies.</p>
+            <div class="tech-stack">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>React</span>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3>Backend Development</h3>
+            <p>Creating robust server-side applications with secure APIs and database management.</p>
+            <div class="tech-stack">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>MongoDB</span>
+              <span>REST API</span>
+            </div>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <h3>E-Commerce Solutions</h3>
+            <p>Developing secure online stores with payment integration and inventory management.</p>
+            <div class="tech-stack">
+              <span>MERN Stack</span>
+              <span>Stripe/PayPal</span>
+              <span>Firebase</span>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-right">
-        <h1 class="section-title">About <span>me</span></h1>
-        <p> I am a final-year Bachelor of Engineering student specializing in  <b> <i>Computer Science and Engineering</i></b>. As a <b>MERN stack developer </b>  with programming knowledge in Java, Python, and JavaScript, I have successfully built an eCommerce web application utilizing MongoDB, Express.js, React.js, and Node.js.
-          I am looking for a challenging career in the field of computer science, which provides me a platform to present my theoretical and practical knowledge, develop my experimental and research skills, and extend myself to higher work in the field of my technical interests. I am passionate about leveraging technology to solve real-world problems and continuously seek opportunities to enhance my skills and knowledge.
-          My academic journey has been complemented by hands-on experience in developing robust and scalable web applications, which has equipped me with a comprehensive understanding of both frontend and backend technologies. I am eager to contribute my technical expertise and innovative mindset to a dynamic and forward-thinking organization. My career goal is to work in an environment that challenges me to grow and allows me to collaborate with like-minded professionals to create impactful software solutions.</p>
+    </section>
 
-          <h1 style="font-size: 40px;"><span style="color: RED;">LOC</span><span>ATION</span></h1>
-          <div class="loc">
-            <section class="ntv">
-              <h1>Native</h1>
-              Kolapally , Ooty ,  <i>The Nilgiris</i>
-            </section>
-            <section class="ntv">
-              <h1>Current</h1>
-              Pudukottai , Tamilnadu .
-            </section>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2><span class="section-number">02.</span> My Projects</h2>
+          <div class="line"></div>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="img/ecommerce-project.png" alt="E-Commerce Project">
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>E-Commerce Platform</h3>
+              <p>Full-featured online store with product management, user authentication, and payment processing.</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                <span>Stripe API</span>
+              </div>
+            </div>
           </div>
-        <a href="img/Resume Updated 1.pdf" class="cta">View Resume</a>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="img/transit-project.jpg" alt="Smart Transit Project">
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Smart Transit System</h3>
+              <p>Public transportation optimization using machine learning for route planning and capacity management.</p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>React</span>
+                <span>Node.js</span>
+                <span>Machine Learning</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="img/chat-app.png" alt="Chatogram Project">
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Chatogram</h3>
+              <p>End-to-end encrypted messaging application with real-time communication features.</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Socket.io</span>
+                <span>MongoDB</span>
+                <span>Node.js</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="view-more">
+          <a href="#" class="cta-btn">View More Projects</a>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- End About Section -->
+    </section>
 
-
-  <section class="socialmedia">
-    <div class="smelem">
-           <a href="https://www.linkedin.com/in/dheenadhayalan-s-07b50222a" target="_blank"><img src="img/linkedin.png" alt="linkedin"></a>
-           <h2>Connect On Linkedin</h2>
-            
-    </div>
-
-    <div class="smelem">
-      <a href="https://www.instagram.com/dheena_shobha?igsh=Y3BnNzlrbnlnMHFj" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
-      <h2>Connect On Instagram</h2>
-       
-    </div>
-
-    <div class="smelem">
-       <a  href="https://github.com/Dheenadhayalan211203" target="_blank"><img src="img/icons8-github-50.png" alt="github"></a>
-         <h2>Connect On Github</h2>
-   
-    </div>
-
-
-  </section>
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div>
-        <h1 class="section-title">Contact <span>info</span></h1>
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2><span class="section-number">03.</span> About Me</h2>
+          <div class="line"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Hello! I'm Dheenadhayalan, a passionate Full Stack Developer with expertise in the MERN stack. 
+              I'm currently pursuing my Bachelor's degree in Computer Science and Engineering.
+            </p>
+            <p>
+              My journey in web development began when I built my first website in college. Since then, 
+              I've worked on various projects ranging from e-commerce platforms to machine learning applications.
+            </p>
+            <p>
+              Here are a few technologies I've been working with recently:
+            </p>
+            <div class="skills-list">
+              <ul>
+                <li><i class="fas fa-caret-right"></i> JavaScript (ES6+)</li>
+                <li><i class="fas fa-caret-right"></i> React.js</li>
+                <li><i class="fas fa-caret-right"></i> Node.js</li>
+              </ul>
+              <ul>
+                <li><i class="fas fa-caret-right"></i> Express.js</li>
+                <li><i class="fas fa-caret-right"></i> MongoDB</li>
+                <li><i class="fas fa-caret-right"></i> Python</li>
+              </ul>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-container">
+              <img src="img/profile-about.jpg" alt="Dheenadhayalan S">
+              <div class="glow"></div>
+            </div>
+          </div>
+        </div>
+        <div class="location-info">
+          <div class="location-card">
+            <i class="fas fa-home"></i>
+            <h4>Native</h4>
+            <p>Kolapally, Ooty</p>
+            <p>The Nilgiris, Tamilnadu</p>
+          </div>
+          <div class="location-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h4>Current</h4>
+            <p>Pudukottai</p>
+            <p>Tamilnadu, India</p>
+          </div>
+        </div>
       </div>
-      <div class="contact-items">
-        <div class="contact-item"  >
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2><span class="section-number">04.</span> Get In Touch</h2>
+          <div class="line"></div>
+        </div>
+        <div class="contact-content">
           <div class="contact-info">
-            <h1>Phone</h1>
-            <h2>+91 6374253367</h2>
-            
+            <h3>Let's talk about your project!</h3>
+            <p>
+              I'm currently looking for new opportunities and my inbox is always open. 
+              Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>dheenadha19@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone-alt"></i>
+                <span>+91 6374253367</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Kolapally, The Nilgiris, Tamilnadu, India</span>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/Dheenadhayalan211203" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/dheenadhayalan-s-07b50222a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.instagram.com/dheena_shobha" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
           </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2>dheenadha19@gmail.com</h2>
-            
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2>Kolapally,The Nilgiris , Tamilnadu , India</h2>
-          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="cta-btn">Send Message</button>
+          </form>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
+    </section>
 
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="brand">
-        <h1><span>D</span>heena <span>D</span>hayalan S</h1>
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#hero"><span class="code-symbol">&lt;/&gt;</span> Dheenadhayalan</a>
+          </div>
+          <div class="footer-links">
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer-social">
+            <a href="https://github.com/Dheenadhayalan211203" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/dheenadhayalan-s-07b50222a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/dheena_shobha" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Designed & Built by Dheenadhayalan S</p>
+          <p>Copyright &copy; <span id="year"></span> All rights reserved</p>
+        </div>
       </div>
-      
-      <p>Copyright © 2024 Dheena. All rights reserved</p>
-    </div>
-  </section>
-  <!-- End Footer -->
-  <script src="./app.js"></script>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
